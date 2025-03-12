@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "discord-robot-jyuna",
   "private": true,
   "scripts": {
     "build": "turbo run build",
