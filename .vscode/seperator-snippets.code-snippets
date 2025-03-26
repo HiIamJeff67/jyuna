@@ -1,0 +1,52 @@
+{
+  "Seperator_MainLibraries": {
+    "prefix": "SepMainLib",
+    "body": "/* =============== Main Libraries =============== */",
+    "description": "Main Libraries Seperator",
+  },
+  "Seperator_ModuleDependencies": {
+    "prefix": "SepModuleDep",
+    "body": "/* =============== Module Dependencies =============== */",
+    "description": "Module Dependencies Seperator",
+  },
+  "Seperator_SharedRepositories": {
+    "prefix": "SepSharedRepo",
+    "body": "/* =============== Shared Repositories =============== */",
+    "description": "Shared Repository Seperator",
+  },
+  "Seperator_DatabaseSchema": {
+    "prefix": "SepDatabaseSchema",
+    "body": "/* =============== Database Schema =============== */",
+    "description": "Database Schema Seperator",
+  },
+  "Seperator_Models": {
+    "prefix": "SepModels",
+    "body": "/* =============== Models =============== */",
+    "description": "Models Seperator",
+  },
+  "Seperator_Others": {
+    "prefix": "SepOthers",
+    "body": "/* =============== Others =============== */",
+    "description": "Others Seperator",
+  },
+  "Seperator_10": {
+    "prefix": "Sep10",
+    "body": "/* ========== ========== */",
+    "description": "10 '=' Seperator",
+  },
+  "Seperator_15": {
+    "prefix": "Sep15",
+    "body": "/* =============== =============== */",
+    "description": "15 '=' Seperator",
+  },
+  "Seperator_20": {
+    "prefix": "Sep20",
+    "body": "/* ==================== ==================== */",
+    "description": "20 '=' Seperator",
+  },
+  "Seperator_25": {
+    "prefix": "Sep25",
+    "body": "/* ========================= ========================= */",
+    "description": "25 '=' Seperator",
+  },
+}

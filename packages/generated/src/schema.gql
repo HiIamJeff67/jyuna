@@ -1,0 +1,395 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AffectedCountOutput {
+  accessToken: String!
+  expiresIn: String!
+  successCount: Int!
+  totCount: Int!
+}
+
+type AffectedNotificationsOutput {
+  accessToken: String!
+  expiresIn: String!
+  notification: Notification!
+  successCount: Int!
+  totCount: Int!
+}
+
+type AffectedPrivateUserInfoOutput {
+  accessToken: String!
+  expiresIn: String!
+  successCount: Int!
+  totCount: Int!
+  userInfo: PrivateUserInfo!
+}
+
+type AffectedUserSettingOutput {
+  accessToken: String!
+  expiresIn: String!
+  successCount: Int!
+  totCount: Int!
+  userSetting: UserSetting!
+}
+
+input CreateNotificationInput {
+  content: String!
+  linkId: String
+  title: String!
+  to: [String!]!
+  type: NotificationEnum
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+input DefaultLoginInput {
+  account: String!
+  password: String!
+}
+
+type DefaultLoginOutput {
+  accessToken: String!
+  expiresIn: String!
+  language: LanguageEnum!
+  theme: ThemeEnum!
+  timeZone: TimeZoneEnum!
+}
+
+input DefaultRegisterInput {
+  displayName: String!
+  email: String!
+  password: String!
+  userName: String!
+}
+
+type DefaultRegisterOutput {
+  accessToken: String!
+  expiresIn: String!
+  language: LanguageEnum!
+  theme: ThemeEnum!
+  timeZone: TimeZoneEnum!
+}
+
+input DeleteAccountInput {
+  password: String!
+}
+
+input DeleteNotificationInput {
+  notificationIds: [String!]!
+}
+
+input FilterOptions {
+  gender: UserGenderEnum
+  status: UserStatusEnum
+}
+
+input GetNotificationInput {
+  notificationId: String!
+}
+
+input GetNotificationsInput {
+  after: String! = "00000000-0000-0000-0000-000000000000"
+  first: Int! = 10
+  totCount: Int
+}
+
+input GetRelativeUserInfosInput {
+  after: String! = "00000000-0000-0000-0000-000000000000"
+  filterOptions: FilterOptions
+  first: Int! = 10
+  searchInput: String
+  searchInputType: SearchUserInputEnum! = ByDisplayName
+  sortOptions: SortOptions
+  totCount: Int
+}
+
+enum LanguageEnum {
+  English
+  Japanese
+  SimplifiedChinese
+  TraditionalChinese
+}
+
+type Mutation {
+  createNofications(input: CreateNotificationInput!): AffectedNotificationsOutput!
+  defaultLogin(input: DefaultLoginInput!): DefaultLoginOutput!
+  defaultRegister(input: DefaultRegisterInput!): DefaultRegisterOutput!
+  deleteMyAccount(input: DeleteAccountInput!): AffectedCountOutput!
+  deleteMyNotifications(input: DeleteNotificationInput!): AffectedCountOutput!
+  updateMyAccount(input: UpdateAccountInput!): AffectedCountOutput!
+  updateMyInfo(input: UpdateUserInfoInput!): AffectedPrivateUserInfoOutput!
+  updateMyNotifications(input: UpdateNotificationInput!): AffectedCountOutput!
+  updateMySetting(input: UpdateUserSettingInput!): AffectedUserSettingOutput!
+}
+
+type Notification {
+  content: String!
+  createdAt: DateTime!
+  id: String!
+  isRead: Boolean!
+  linkId: String
+  title: String!
+  type: NotificationEnum
+  updatedAt: DateTime!
+}
+
+type NotificationEdge {
+  cursor: String!
+  node: Notification!
+}
+
+enum NotificationEnum {
+  AD
+  FriendRequest
+  Security
+  System
+}
+
+type NotificationOutput {
+  accessToken: String!
+  content: String!
+  createdAt: DateTime!
+  expiresIn: String!
+  id: String!
+  isRead: Boolean!
+  linkId: String
+  title: String!
+  type: NotificationEnum
+  updatedAt: DateTime!
+}
+
+type PaginatedNotificationsOutput {
+  accessToken: String!
+  edges: [NotificationEdge!]
+  expiresIn: String!
+  hasNextPage: Boolean!
+  hasPrevPage: Boolean!
+  totalCount: Int!
+}
+
+type PaginatedPublicUserInfosOutput {
+  accessToken: String!
+  edges: [PublicUserInfoEdge!]
+  expiresIn: String!
+  hasNextPage: Boolean!
+  hasPrevPage: Boolean!
+  totalCount: Int!
+}
+
+type PrivateUserInfo {
+  avatarURL: String
+  birthDate: DateTime
+  createdAt: DateTime!
+  displayName: String!
+  gender: UserGenderEnum!
+  inviteCode: Int!
+  selfIntroduction: String
+  status: UserStatusEnum!
+  updatedAt: DateTime!
+  userName: String!
+}
+
+type PrivateUserInfoOutput {
+  accessToken: String!
+  avatarURL: String
+  birthDate: DateTime
+  createdAt: DateTime!
+  displayName: String!
+  expiresIn: String!
+  gender: UserGenderEnum!
+  inviteCode: Int!
+  selfIntroduction: String
+  status: UserStatusEnum!
+  updatedAt: DateTime!
+  userName: String!
+}
+
+type PublicUserInfo {
+  avatarURL: String
+  createdAt: DateTime!
+  displayName: String!
+  inviteCode: Int!
+  selfIntroduction: String
+  updatedAt: DateTime!
+  userName: String!
+}
+
+type PublicUserInfoEdge {
+  cursor: String!
+  node: PublicUserInfo!
+}
+
+type PublicUserInfoOutput {
+  accessToken: String!
+  avatarURL: String
+  createdAt: DateTime!
+  displayName: String!
+  expiresIn: String!
+  inviteCode: Int!
+  selfIntroduction: String
+  updatedAt: DateTime!
+  userName: String!
+}
+
+type Query {
+  getMyAccount: UserAccountOutput!
+  getMyAuth: UserAuth!
+  getMyInfo: PrivateUserInfoOutput!
+  getMyNotification(input: GetNotificationInput!): NotificationOutput!
+  getMyNotifications(input: GetNotificationsInput!): PaginatedNotificationsOutput!
+  getMySetting: UserSettingOutput!
+  getUserInfo(userName: String!): PublicUserInfoOutput!
+  getUserInfos(input: GetRelativeUserInfosInput!): PaginatedPublicUserInfosOutput!
+}
+
+enum SearchOrderEnum {
+  Ascending
+  Descending
+  None
+}
+
+enum SearchUserInputEnum {
+  ByDisplayName
+  ByInviteCode
+  ByUserName
+}
+
+input SortOptions {
+  byCreatedAt: SearchOrderEnum! = None
+  byUpdatedAt: SearchOrderEnum! = Descending
+}
+
+enum ThemeEnum {
+  Dark
+  Light
+  System
+}
+
+enum TimeZoneEnum {
+  UTC_MINUS_01
+  UTC_MINUS_02
+  UTC_MINUS_03
+  UTC_MINUS_04
+  UTC_MINUS_05
+  UTC_MINUS_06
+  UTC_MINUS_07
+  UTC_MINUS_08
+  UTC_MINUS_09
+  UTC_MINUS_10
+  UTC_MINUS_11
+  UTC_MINUS_12
+  UTC_PLUS_01
+  UTC_PLUS_02
+  UTC_PLUS_03
+  UTC_PLUS_04
+  UTC_PLUS_05
+  UTC_PLUS_06
+  UTC_PLUS_07
+  UTC_PLUS_08
+  UTC_PLUS_09
+  UTC_PLUS_10
+  UTC_PLUS_11
+  UTC_PLUS_12
+  UTC_PLUS_13
+  UTC_PLUS_14
+  UTC_ZERO
+}
+
+input UpdateAccountInput {
+  plan: UserPlanEnum!
+  role: UserRoleEnum!
+}
+
+input UpdateNotificationInput {
+  notificationIds: [String!]!
+}
+
+input UpdateUserInfoInput {
+  birthDate: DateTime
+  displayName: String
+  gender: UserGenderEnum
+  selfIntroduction: String
+  status: UserStatusEnum
+}
+
+input UpdateUserSettingInput {
+  generalSettingsCode: Int
+  language: LanguageEnum
+  privacySettingsCode: Int
+  theme: ThemeEnum
+  timeZone: TimeZoneEnum
+}
+
+type UserAccountOutput {
+  accessToken: String!
+  email: String!
+  expiresIn: String!
+  plan: UserPlanEnum!
+  role: UserRoleEnum!
+  userAgent: String!
+  userName: String!
+}
+
+type UserAuth {
+  discordId: String
+  googleId: String
+  lineId: String
+  metaId: String
+  phoneNumber: String
+  redditId: String
+  spotifyId: String
+  twitchId: String
+  updatedAt: DateTime!
+}
+
+enum UserGenderEnum {
+  Female
+  Male
+  PreferNotToSay
+}
+
+enum UserPlanEnum {
+  Enterprise
+  Free
+  Pro
+  Ultimate
+}
+
+enum UserRoleEnum {
+  Admin
+  AlphaExplorer
+  BetaExplorer
+  Certified
+  Developer
+  GammaExplorer
+  NonCertified
+}
+
+type UserSetting {
+  generalSettingsCode: Int!
+  language: LanguageEnum!
+  privacySettingsCode: Int!
+  theme: ThemeEnum!
+  timeZone: TimeZoneEnum!
+}
+
+type UserSettingOutput {
+  accessToken: String!
+  expiresIn: String!
+  generalSettingsCode: Int!
+  language: LanguageEnum!
+  privacySettingsCode: Int!
+  theme: ThemeEnum!
+  timeZone: TimeZoneEnum!
+}
+
+enum UserStatusEnum {
+  AFK
+  DoNotDisturb
+  Offline
+  Online
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@repo/generated",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/schema.sql"
+    }
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.11",
+    "@nestjs/graphql": "^13.0.3",
+    "graphql": "^16.10.0",
+    "graphql-upload": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/graphql-upload": "^17.0.0",
+    "@turbo/gen": "^2.4.4",
+    "@types/node": "^22.13.9"
+  }
+}
