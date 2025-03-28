@@ -1,0 +1,46 @@
+[
+  {
+    "id": "968352e3-9977-4733-93bb-9bbaa57ecdf4",
+    "userAccount": {
+      "userName": "Laisha8",
+      "email": "Josephine.Kling72@hotmail.com",
+      "password": "$2b$16$Hqe3AQl85wWy5z4B89dmCOW2HtPN1Lr4XX//sgMa3xKg2.FlK3wxm",
+      "role": "Developer",
+      "plan": "Ultimate",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Isabel Gulgowski-Kunde",
+      "inviteCode": 43,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T09:41:57.913Z",
+      "createdAt": "2025-03-27T09:41:57.913Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T09:42:58.030Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T09:41:57.913Z"
+    },
+    "userSetting": {
+      "language": "Japanese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  }
+]

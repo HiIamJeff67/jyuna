@@ -1,0 +1,442 @@
+[
+  {
+    "id": "66a41b46-3dcf-4980-860c-ad1ff00576ef",
+    "userAccount": {
+      "userName": "Issac411",
+      "email": "Jodie.Crooks@hotmail.com",
+      "password": "$2b$16$bVUr9HEz4IKFkW0Vc8nwkugUfZ9HYOsepHC1hJ3n0Hq/Zwo0BNktC",
+      "role": "GammaExplorer",
+      "plan": "Ultimate",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Loretta Littel",
+      "inviteCode": 32,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "TraditionalChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "5edc0ed3-4185-44c4-814e-d5467b43b3ed",
+    "userAccount": {
+      "userName": "Alivia987",
+      "email": "Grace_Willms@yahoo.com",
+      "password": "$2b$16$hd2WIJN65pUodg5/atpyBOepUCD2ALPXVC4TDt9QBYGiWfGfE9lA2",
+      "role": "NonCertified",
+      "plan": "Free",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Cesar Gulgowski",
+      "inviteCode": 33,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "English",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "0b5a0a41-3814-4267-b19e-6f4775e3cd48",
+    "userAccount": {
+      "userName": "Delmer218",
+      "email": "Scotty.Monahan3@hotmail.com",
+      "password": "$2b$16$aPvwXt/2c73dZ5fbPeloI.otzQOR2D3dOcFr9KjbkUadvMAmu2abi",
+      "role": "NonCertified",
+      "plan": "Pro",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Mrs. Maria Walsh",
+      "inviteCode": 34,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "Japanese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "253e7817-f599-4068-8821-feeb7d504891",
+    "userAccount": {
+      "userName": "Wilburn207",
+      "email": "Raoul9@hotmail.com",
+      "password": "$2b$16$z.z3rMqgrlSFH6OHOPY4j.FALRAcagnWv66x5u9AZxMkwKfisGdxy",
+      "role": "Developer",
+      "plan": "Enterprise",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Kristina Carroll",
+      "inviteCode": 35,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "TraditionalChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "c1229cd8-4cff-432e-a6a6-264446aaa198",
+    "userAccount": {
+      "userName": "Anabelle351",
+      "email": "Kobe.Lehner19@hotmail.com",
+      "password": "$2b$16$d4a2bbnB/B164JdqbYTr8OPrSt/1nk2Sk6mgylHwdJfGRJwm5XVg.",
+      "role": "NonCertified",
+      "plan": "Ultimate",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Lamar Shields",
+      "inviteCode": 36,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "SimplifiedChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "24142eda-cbc9-42f0-9df0-268924ce4ba0",
+    "userAccount": {
+      "userName": "Cleora744",
+      "email": "Grant_Shields27@gmail.com",
+      "password": "$2b$16$mmCyWoXoUqU..TsT3czqgOKgp65TIWLF3eTSecueTcmEHcGDsbo5q",
+      "role": "GammaExplorer",
+      "plan": "Free",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Earnest Price",
+      "inviteCode": 37,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "SimplifiedChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "a6b1e82a-c2c6-4dca-afc7-a36a616981d5",
+    "userAccount": {
+      "userName": "Jorge983",
+      "email": "Creola.Koepp26@hotmail.com",
+      "password": "$2b$16$gDrcmTRr/J7jApD8u5ESXOQb.udee8t63lB/4XT4zOFEmdJUogPci",
+      "role": "BetaExplorer",
+      "plan": "Free",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Nellie Hartmann",
+      "inviteCode": 38,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "SimplifiedChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "ba9e3817-9230-437a-84ea-d35a995f81c9",
+    "userAccount": {
+      "userName": "Marvin463",
+      "email": "Gerda.Crona@yahoo.com",
+      "password": "$2b$16$oBhP6tBBQ9DfM2hMSqTon.rl8cNMo2503bDmyiCS07VBGhup.CwGW",
+      "role": "BetaExplorer",
+      "plan": "Pro",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Mr. Archie Dickens Sr.",
+      "inviteCode": 39,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "SimplifiedChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "56f6dead-ab0a-49ce-991f-9136f571d089",
+    "userAccount": {
+      "userName": "Shanel916",
+      "email": "Graciela5@gmail.com",
+      "password": "$2b$16$0MfUK6wtaBR8ToxSO1YDwu/GNVpQ5CQKt5jxOMAw2fN0KYhY2k29K",
+      "role": "NonCertified",
+      "plan": "Free",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Tracy Koepp",
+      "inviteCode": 40,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "Japanese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  },
+  {
+    "id": "9f694af7-5bbb-497f-b284-ea6ad8ffe498",
+    "userAccount": {
+      "userName": "Bart421",
+      "email": "Domingo97@hotmail.com",
+      "password": "$2b$16$Nu.KOmNskOX2dO2xVlZytuINTCZT0qqcsOVb75VGZDjw3hTG5pmCa",
+      "role": "BetaExplorer",
+      "plan": "Enterprise",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Dr. Cecil Mertz",
+      "inviteCode": 41,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z",
+      "createdAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T01:12:22.373Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T01:11:22.207Z"
+    },
+    "userSetting": {
+      "language": "SimplifiedChinese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  }
+]

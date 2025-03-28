@@ -201,6 +201,7 @@ export class AuthService {
           refreshToken: refreshTokenData.refreshToken,
           userAgent: userAgent,
         })
+        .where(eq(UserTable.id, responseOfCreatingUser[0].id))
         .returning();
       if (!responseOfUpdatingUser || responseOfUpdatingUser.length !== 1) {
         throw UserNotFoundException;

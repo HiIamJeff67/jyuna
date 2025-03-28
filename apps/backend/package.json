@@ -23,7 +23,8 @@
     "db:studio": "drizzle-kit studio",
     "db:drop": "drizzle-kit drop",
     "db:visualizer": "npx drizzle-lab visualizer",
-    "db:generate-lab": "npx drizzle-lab generate"
+    "db:generate-lab": "npx drizzle-lab generate",
+    "db:seed": "sh scripts/seeds/db-seed.sh"
   },
   "dependencies": {
     "@repo/constants": "*",

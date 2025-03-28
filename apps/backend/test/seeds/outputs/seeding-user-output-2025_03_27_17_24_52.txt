@@ -1,0 +1,46 @@
+[
+  {
+    "id": "58a1d04b-6555-4bed-ae5a-fa613722db26",
+    "userAccount": {
+      "userName": "Caitlyn219",
+      "email": "Birdie_Kris31@gmail.com",
+      "password": "$2b$16$47Bd9V6gfrAyh4gEtOGLOeU9fIVaWba/wgbLCqSecDnF27l4H6Nvq",
+      "role": "Developer",
+      "plan": "Enterprise",
+      "refreshToken": "FAKE_REFREHS_TOKEN_PLACEHOLDER",
+      "userAgent": "FAKE_USER_AGENT_PLACEHOLDER"
+    },
+    "userInfo": {
+      "displayName": "Ms. Joann Stanton",
+      "inviteCode": 42,
+      "avatarUrl": null,
+      "status": "Offline",
+      "gender": "PreferNotToSay",
+      "birthDate": null,
+      "selfIntroduction": null,
+      "updatedAt": "2025-03-27T09:24:57.206Z",
+      "createdAt": "2025-03-27T09:24:57.206Z"
+    },
+    "userAuth": {
+      "authCode": "123456",
+      "authCodeExpiredAt": "2025-03-27T09:25:57.402Z",
+      "isEmailAuthenticated": false,
+      "phoneNumber": null,
+      "discordId": null,
+      "googleId": null,
+      "spotifyId": null,
+      "twitchId": null,
+      "metaId": null,
+      "redditId": null,
+      "lineId": null,
+      "updatedAt": "2025-03-27T09:24:57.206Z"
+    },
+    "userSetting": {
+      "language": "Japanese",
+      "timeZone": "UTC+08:00",
+      "theme": "Dark",
+      "generalSettingsCode": 0,
+      "privacySettingsCode": 0
+    }
+  }
+]
