@@ -1,0 +1,2 @@
+* Supabase require a more higher security safe environment, hence we need a CA Certificate so that we can modify or fetch the data from database
+* Generate a SSL CA file and put it into some folder, and specified the path in the variable of ssl inside ```drizzle.module.ts.```
