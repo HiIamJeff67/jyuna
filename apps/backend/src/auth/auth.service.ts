@@ -103,14 +103,22 @@ export class AuthService {
         throw CreateUserException;
       }
 
-      const responseOfCreatingUserInfo = await tx
+      const responseOfCreatingUserInfo = (await tx
         .insert(UserInfoTable)
         .values({
           userId: responseOfCreatingUser[0].id,
           userName: input.userName,
           displayName: input.displayName,
         })
-        .returning();
+        .returning({
+          displayName: UserInfoTable.displayName,
+          avatarURL: UserInfoTable.avatarURL,
+          status: UserInfoTable.status,
+        })) as {
+        displayName: string;
+        avatarURL: string | null;
+        status: UserStatusType;
+      }[];
       if (
         !responseOfCreatingUserInfo ||
         responseOfCreatingUserInfo.length === 0
@@ -184,7 +192,7 @@ export class AuthService {
         accessTokenData,
         {
           ...responseOfCreatingUser[0],
-          status: responseOfCreatingUserInfo[0].status as UserStatusType,
+          ...responseOfCreatingUserInfo[0],
           generalSettingsCode:
             responseOfCreatingUserSetting[0].generalSettingsCode,
           privacySettingsCode:
@@ -223,6 +231,8 @@ export class AuthService {
         .select({
           id: UserTable.id,
           userName: UserTable.userName,
+          displayName: UserInfoTable.displayName,
+          avatarURL: UserInfoTable.avatarURL,
           email: UserTable.email,
           userAgent: UserTable.userAgent,
           status: UserInfoTable.status,
@@ -248,6 +258,8 @@ export class AuthService {
         )) as {
         id: string;
         userName: string;
+        displayName: string;
+        avatarURL: string | null;
         email: string;
         userAgent: string;
         status: UserStatusType;

@@ -73,6 +73,8 @@ export class JwtRefreshStrategy extends PassportStrategy(
       .select({
         id: UserTable.id,
         userName: UserTable.userName,
+        displayName: UserInfoTable.displayName,
+        avatarURL: UserInfoTable.avatarURL,
         email: UserTable.email,
         userAgent: UserTable.userAgent,
         status: UserInfoTable.status,
@@ -91,6 +93,8 @@ export class JwtRefreshStrategy extends PassportStrategy(
       | {
           id: string;
           userName: string;
+          displayName: string;
+          avatarURL: string | null;
           email: string;
           userAgent: string;
           status: UserStatusType;

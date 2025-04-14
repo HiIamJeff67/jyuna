@@ -120,7 +120,7 @@ type Mutation {
   defaultRegister(input: DefaultRegisterInput!): DefaultRegisterOutput!
   deleteMyAccount(input: DeleteAccountInput!): AffectedCountOutput!
   deleteMyNotifications(input: DeleteNotificationInput!): AffectedCountOutput!
-  updateMyAccount(input: UpdateAccountInput!): AffectedCountOutput!
+  updateMe(input: UpdateMeInput!): AffectedCountOutput!
   updateMyInfo(input: UpdateUserInfoInput!): AffectedPrivateUserInfoOutput!
   updateMyNotifications(input: UpdateNotificationInput!): AffectedCountOutput!
   updateMySetting(input: UpdateUserSettingInput!): AffectedUserSettingOutput!
@@ -236,7 +236,7 @@ type PublicUserInfoOutput {
 }
 
 type Query {
-  getMyAccount: UserAccountOutput!
+  getMe: UserOutput!
   getMyAuth: UserAuth!
   getMyInfo: PrivateUserInfoOutput!
   getMyNotification(input: GetNotificationInput!): NotificationOutput!
@@ -299,7 +299,7 @@ enum TimeZoneEnum {
   UTC_ZERO
 }
 
-input UpdateAccountInput {
+input UpdateMeInput {
   plan: UserPlanEnum!
   role: UserRoleEnum!
 }
@@ -324,16 +324,6 @@ input UpdateUserSettingInput {
   timeZone: TimeZoneEnum
 }
 
-type UserAccountOutput {
-  accessToken: String!
-  email: String!
-  expiresIn: String!
-  plan: UserPlanEnum!
-  role: UserRoleEnum!
-  userAgent: String!
-  userName: String!
-}
-
 type UserAuth {
   discordId: String
   googleId: String
@@ -350,6 +340,18 @@ enum UserGenderEnum {
   Female
   Male
   PreferNotToSay
+}
+
+type UserOutput {
+  accessToken: String!
+  avatarURL: String
+  displayName: String!
+  email: String!
+  expiresIn: String!
+  plan: UserPlanEnum!
+  role: UserRoleEnum!
+  userAgent: String!
+  userName: String!
 }
 
 enum UserPlanEnum {

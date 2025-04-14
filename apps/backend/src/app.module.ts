@@ -14,7 +14,7 @@ import { SupabaseStorageModule } from './supabase-storage/supabase-storage.modul
 import { SecureGeneratorModule } from './secret-generator/secret-generator.module';
 import { AuthModule } from './auth/auth.module';
 import { UserInfoModule } from './user-info/user-info.module';
-import { UserAccountModule } from './user-account/user-account.module';
+import { UserModule } from './user/user.module';
 import { UserAuthModule } from './user-auth/user-auth.module';
 import { UsersToUsersModule } from './users-to-users/users-to-users.module';
 import { UserSettingModule } from './user-setting/user-setting.module';
@@ -66,7 +66,7 @@ import { NotificationModule } from './notification/notification.module';
     SupabaseStorageModule,
     AuthModule,
     UserInfoModule,
-    UserAccountModule,
+    UserModule,
     UserAuthModule,
     UsersToUsersModule,
     UserSettingModule,

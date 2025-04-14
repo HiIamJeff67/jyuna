@@ -29,6 +29,7 @@ export class DefaultRegisterInput {
   @Field()
   @MinLength(MinDisplayNameLength)
   @MaxLength(MaxDisplayNameLength)
+  @IsAlphanumeric()
   displayName: string;
 
   @Field()

@@ -16,7 +16,7 @@ const seedWorkflowQuantity =
 
 const seedWorkflowFilePath = path.resolve(
   __dirname,
-  '../../test/seeds/workflows',
+  '../../seeds/workflows',
   `${seedWorkflowFileName}.workflow.ts`,
 );
 
